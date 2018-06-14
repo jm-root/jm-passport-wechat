@@ -11,3 +11,9 @@ test('login', async () => {
   console.log(doc)
   expect(doc.err).toBeTruthy()
 })
+
+test('signon', async () => {
+  let doc = await service.signon({unionid: '123', headimgurl: 'http://www.baidu.com'})
+  console.log(doc)
+  expect(doc).toBeTruthy()
+})
