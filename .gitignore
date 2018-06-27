@@ -3,3 +3,4 @@
 node_modules
 docs
 logs
+package-lock.json
