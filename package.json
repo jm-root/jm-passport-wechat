@@ -26,7 +26,7 @@
   "homepage": "https://github.com/jm-root/jm-passport-wechat",
   "dependencies": {
     "jm-dao": "^1.0.5",
-    "jm-server": "^1.0.3"
+    "jm-server": "^1.0.9"
   },
   "devDependencies": {
     "benchmark": "^2.1.4",
